@@ -10,7 +10,7 @@ export default function App() {
       <View style={styles.tasksWrapper}>
         <Text style={styles.sectionTitle}>Today's tasks</Text>
         <View style={styles.items}>
-          <Task text={'HI GUYS'}/>
+          <Task text={'Hello'}/>
         </View>
       </View>
     </View>
@@ -20,7 +20,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#c5c6c4",
+    backgroundColor: "#cbf3f8",
 
   },
   tasksWrapper: {
@@ -32,6 +32,6 @@ const styles = StyleSheet.create({
     fontWeight: 'bold'
   },
   items: {
-
+    marginTop: 30,
   },
 });
